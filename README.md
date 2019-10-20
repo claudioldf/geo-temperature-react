@@ -4,7 +4,7 @@ This is the frontend application part of this challenge.
 The project was built using React + Typescript, and Node v12.2.0.
 I also use Sass and Bootstrap to build the interface/visual components.
 
-**Developer: ** Claudio Luis Freudenburg Dias \<claudioldf@gmail.com>
+**Developer:** Claudio Luis Freudenburg Dias \<claudioldf@gmail.com>
 
 # How to runs this project
 In order to runs this project I've created a Dockerfile/docker-compose file.
