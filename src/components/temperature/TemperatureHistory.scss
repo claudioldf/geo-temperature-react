@@ -1,0 +1,40 @@
+.table {
+  border-radius: 6px;
+  border: solid 1px #e3e3e3;
+
+  thead {
+    background: #ececec;
+
+    th {
+      border-top: none;
+      border-bottom: solid 1px #d9d9d9;
+    }
+  }
+
+  tbody {
+    .emptyStateTable {
+      background: #f9f9f9;
+      color: #b2b2b2;
+      font-size: 16px;
+      font-weight: bold;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+    td {
+      border-bottom: solid 1px #f3f3f3;
+
+      &:first-child {
+        width: 120px;
+
+        & + td {
+          width: 100px;
+        }
+      }
+
+      &:last-child {
+        width: 100px;
+      }
+    }
+  }
+}

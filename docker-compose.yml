@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  app_frontend_react:
+    container_name: app_frontend_react
+    build: .
+    volumes:
+      - '.:/app'
+      #- '/app/node_modules'
+    ports:
+      - '3000:3000'
+    environment:
+      - NODE_ENV=development
